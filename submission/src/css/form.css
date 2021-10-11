@@ -1,0 +1,31 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+#Notes {
+  width: 550px;
+  height: 30px;
+  text-align: left;
+}
+
+#latitudeDiv {
+  color: red;
+}
+
+#Description {
+  width: 550px;
+}
+
+#longitudeDiv {
+  color: red;
+}
+.required:after {
+  content: "*";
+  color: red;
+}
+#latDiv::before {
+  content: " ";
+}
+
+#longDiv::before {
+  content: " ";
+}
